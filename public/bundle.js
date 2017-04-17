@@ -28641,7 +28641,7 @@
 	    React.createElement(
 	      'p',
 	      null,
-	      'Welcome to examples page'
+	      'Examples page'
 	    )
 	  );
 	};
