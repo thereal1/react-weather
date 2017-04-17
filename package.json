@@ -4,7 +4,6 @@
   "description": "Simple react app",
   "main": "index.js",
   "scripts": {
-    "test": "no tests yet!",
     "start": "node server.js"
   },
   "author": "Andrew Mead",
