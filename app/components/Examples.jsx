@@ -1,5 +1,5 @@
 const React = require('react');
-var {Link} = require('react-router');
+const {Link} = require('react-router');
 
 var Examples = (props) => {
   return (

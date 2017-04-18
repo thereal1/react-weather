@@ -28722,19 +28722,58 @@
 
 	var React = __webpack_require__(8);
 
+	var _require = __webpack_require__(166),
+	    Link = _require.Link;
+
 	var About = function About(props) {
 	  return React.createElement(
 	    'div',
-	    null,
+	    { className: 'text-center' },
 	    React.createElement(
-	      'h3',
+	      'h1',
 	      null,
 	      'About'
 	    ),
 	    React.createElement(
 	      'p',
 	      null,
-	      'About page'
+	      'Information about our product'
+	    ),
+	    React.createElement(
+	      'p',
+	      null,
+	      'Here are some of our sources and a link to our GitHub repo:'
+	    ),
+	    React.createElement(
+	      'ul',
+	      { className: 'menu vertical' },
+	      React.createElement(
+	        'li',
+	        null,
+	        React.createElement(
+	          Link,
+	          { to: 'https://github.com/thereal1/react-weather' },
+	          'Our GitHub Repo'
+	        )
+	      ),
+	      React.createElement(
+	        'li',
+	        null,
+	        React.createElement(
+	          Link,
+	          { to: 'http://foundation.zurb.com/' },
+	          'Foundation (for css styling)'
+	        )
+	      ),
+	      React.createElement(
+	        'li',
+	        null,
+	        React.createElement(
+	          Link,
+	          { to: 'https://facebook.github.io/react/' },
+	          'React'
+	        )
+	      )
 	    )
 	  );
 	};
