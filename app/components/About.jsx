@@ -4,7 +4,7 @@ const {Link} = require('react-router');
 var About = (props) => {
   return (
     <div className="text-center">
-      <h1>About</h1>
+      <h1 className="page-title">About</h1>
       <p>Information about our product</p>
       <p>Here are some of our sources and a link to our GitHub repo:</p>
       <ul className="menu vertical">
